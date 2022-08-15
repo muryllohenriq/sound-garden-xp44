@@ -26,5 +26,5 @@ PreencherForm.addEventListener('submit', (event) =>{
         alert("Evento criado!")
         window.location.replace("admin.html");
     }
-    ).catch( erro => console.error(error))
+    ).catch( error => console.error(error))
 });
