@@ -41,3 +41,18 @@ tbody.innerHTML = htmlEventos;
 };
 
 listarEventos();
+
+// quando a janela termina de carregar
+window.onload = () => {
+  console.log('pagina carregada');
+  //pega url da pagina
+  const url = new URL(window.location.href);
+  //separando parametro acao
+  const acao = url.searchParams.get('acao');
+
+  console.log(acao);
+
+  if(acao != null && acao == 'edit') {
+    alert('Evento atualizado com sucesso!');
+  }
+}
