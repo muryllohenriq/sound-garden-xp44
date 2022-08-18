@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.modal{
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(129, 129, 129);
+    position:absolute;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation:animate;
+    animation-duration: 800ms;
+}
+.backmodal{ 
+    position:relative;
+    width: 600px;
+    height: 60px;
+    justify-content: left;
+    display: flex;
+    background-color: rgb(222, 219, 232);
+}
+@keyframes animate{
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
+.headermodal h1{
+    font-weight: bold;
+    font-size: 15px;
+   color:black;
+    text-indent: 20px;
+    font-size: 50px;
+    box-shadow:60px;
+  
+}
+.labels{
+    font-size: 20px;
+    color:black;
+}
+.labels #nome_label {
+    position:relative;
+    width:90px;
+    top: 72px;
+    right:200px;
+  
+}
+.labels #name {
+    position:relative;
+    width:200px;
+    height:35px;
+    top: 102px;
+    right:300px;
+    align-items: left;
+}
+
+.labels #email_label{
+    position:relative;
+    width:90px;
+    top:38px;
+    left:90px;
+}
+
+.labels #email{
+    position:relative;
+    width:200px;
+    height:36px;
+    top:67px;
+    right:10px;
+    align-items: left;
+}
+
+.labels #ningressos_label{
+    position:relative;
+    width:200px;
+    top: 90px;
+    right: 202px;
+}
+.labels #ningressos{
+    position:relative;
+    top:90px;
+    right:200px;
+    width:40px;
+}
+ .buttons .btnreservar_modal {
+    position:relative;
+    top:240px;
+    right:260px;
+}
+.buttons .btnreservar_modal:hover{
+    background-color: blue;
+}
+
+ .buttons .btnfechar_modal{
+    float:right;
+    background-color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 10px;
+    position:relative;
+    text-transform: uppercase;
+    bottom:35px;
+    right:10px;
+    width:20px;
+    transform-origin: center;
+    transition:transform 250ms ease-in;
+ }
+ .buttons .btnfechar_modal:hover{
+    background-color: rgb(255, 10, 10);
+ }

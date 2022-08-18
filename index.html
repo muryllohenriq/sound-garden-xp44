@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body>
@@ -16,12 +17,11 @@
         <img src="img/Sound-logo (1).png" width="300" alt="">
     </header>
     <main>
-        <section class="full d-flex justify-content-center align-items-center"
-            style="background-color: #F8BBD0; color: #fff">
-            <div class="text-center">
-                <h1>Adicione um banner maneiro aqui</h1>
+            <div class="banner">
+                <img class="selected" src="img/festa1.jpg" alt="Image1">
+                <img src="img/festa2.jpg" alt="Image2">
             </div>
-        </section>
+       
         <section class="full">
             <div class="container text-center">
                 <h2>Próximos eventos</h2>
@@ -33,7 +33,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam sunt quo similique,
                         dolorum consectetur inventore ipsam, officiis neque natus eius harum alias quidem. Possimus
                         nobis in inventore tenetur asperiores.</p>
-                    <a href="#" class="btn btn-primary">reservar ingresso</a>
+                    <div onclick="formulario()" class="btn btn-primary">reservar ingresso</a>
                 </article>
                 <article class="evento card p-5 m-3">
                     <h2>nome do evento - 05/03/2022</h2>
@@ -41,7 +41,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam sunt quo similique,
                         dolorum consectetur inventore ipsam, officiis neque natus eius harum alias quidem. Possimus
                         nobis in inventore tenetur asperiores.</p>
-                    <a href="#" class="btn btn-primary">reservar ingresso</a>
+                    <div onclick="formulario()" class="btn btn-primary">reservar ingresso</a>
                 </article>
                 <article class="evento card p-5 m-3">
                     <h2>nome do evento - 05/03/2022</h2>
@@ -49,7 +49,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam sunt quo similique,
                         dolorum consectetur inventore ipsam, officiis neque natus eius harum alias quidem. Possimus
                         nobis in inventore tenetur asperiores.</p>
-                    <a href="#" class="btn btn-primary">reservar ingresso</a>
+                    <div onclick="formulario()" class="btn btn-primary">reservar ingresso</a> 
                 </article>
             </div>
             <div class="container text-center">
@@ -85,7 +85,34 @@
                 </div>
             </div>
         </section>
+        <div class="modal">
+                       <div class="backmodal">
+                            <div class="headermodal">
+                                <h1>Cadastro</h1>
+                            </div>
+                            <div class = "labels">
+                            <label id="nome_label" for ="name">Nome</label>
+                            <input type="text" class="formularioctl" id="name" placeholder="Digite seu nome">
 
+                            <label id ="email_label" for ="email">E-mail</label>
+                            <input type="text" class="formularioctl" id="email" placeholder="Digite seu e-mail">
+
+                            <label id ="ningressos_label" for ="ningressos">Número de ingressos</label>
+                            <input type="text" class="formularioctl" id="ningressos" list="numero_ingressos">           
+                        <datalist id = "numero_ingressos">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                        </datalist>
+                        </div>
+                        <div class="buttons">
+                        <button type="submit" class="btnreservar_modal">Reservar ingresso</button>
+                        <button onclick="fecharmodal()" type="button" id="btn-fechar" class="btnfechar_modal ">X</button>
+                        </div>
+                    </div>            
+        </div>
     </main>
     <footer>
         <div class="container d-flex justify-content-center align-items-center">
@@ -104,6 +131,7 @@
             </nav>
         </div>
     </footer>
+<script src="./js/index.js"> </script>
 </body>
 
 </html>

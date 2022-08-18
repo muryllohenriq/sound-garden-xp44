@@ -6,7 +6,7 @@ let time = 5000, //tempo de 5 segundos ou 5000 milisegundos
     //função que troca a imagem
 function nextImage() {
 
-    banner[posicao]
+    banner[posicao] 
     .classList.remove("selected")
     
     posicao++
@@ -26,3 +26,14 @@ function start() {
 }
 
 window.addEventListener("load", start)
+
+// modal
+function formulario (){
+    let modal = document.querySelector(".modal")
+    modal.style.display = "flex";
+}
+
+function fecharmodal(){
+    let modal = document.querySelector(".modal")
+    modal.style.display = "none";
+}
