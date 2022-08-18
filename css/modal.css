@@ -7,13 +7,14 @@
     justify-content: center;
     width: 600px;
     height: 300px;
-    background-color: rgb(129, 129, 129);
+    background-color: rgb(187, 187, 187);
     position:absolute;
     top: 1000px;
     left: 50%;
     transform: translate(-50%,-50%);
     animation:animate;
     animation-duration: 800ms;
+    border-radius: 20px;
 }
 .backmodal{ 
     position:relative;
@@ -21,7 +22,7 @@
     height: 60px;
     justify-content: left;
     display: flex;
-    background-color: rgb(222, 219, 232);
+    background-color: #C2185B;
 }
 @keyframes animate{
     from{opacity: 1;}
@@ -73,17 +74,18 @@
     align-items: left;
 }
 
-.labels #ningressos_label{
+.labels #ingressos_label{
     position:relative;
     width:200px;
-    top: 90px;
-    right: 202px;
+    top: 120px;
+    right: 100px;
+    align-items: left;
 }
 .labels #ningressos{
     position:relative;
-    top:90px;
-    right:200px;
-    width:40px;
+    top:120px;
+    right: 400px;
+    width:80px;
 }
  .buttons .btnreservar_modal {
     position:relative;
@@ -91,7 +93,8 @@
     right:260px;
 }
 .buttons .btnreservar_modal:hover{
-    background-color: blue;
+    background-color: #C2185B;
+    border-radius: 20px;
 }
 
  .buttons .btnfechar_modal{
