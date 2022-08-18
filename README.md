@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src=img/sound-logo.png width="150px">   
+<img src=img/Sound-logo-black.png width="150px">   
 </h1>
 
 <h1>
