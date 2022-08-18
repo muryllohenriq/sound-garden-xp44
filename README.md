@@ -7,7 +7,7 @@
 </h1>
 
 
-# Website Sound Garden Project
+# Website Sound Garden
 
 ## **Index**
 
