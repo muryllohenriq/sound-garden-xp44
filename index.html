@@ -85,7 +85,7 @@
                 </div>
             </div>
         </section>
-        <div class="modal">
+        <form class="modal" id="cadastro-reserva">
                        <div class="backmodal">
                             <div class="headermodal">
                                 <h1>Cadastro</h1>
@@ -97,7 +97,7 @@
                             <label id ="email_label" for ="email">E-mail</label>
                             <input type="text" class="formularioctl" id="email" placeholder="Digite seu e-mail">
 
-                            <label id ="ningressos_label" for ="ningressos">Número de ingressos</label>
+                            <label id ="ingressos_label" for ="ningressos">Número de ingressos</label>
                             <input type="text" class="formularioctl" id="ningressos" list="numero_ingressos">           
                         <datalist id = "numero_ingressos">
                             <option value="1"></option>
@@ -109,10 +109,10 @@
                         </div>
                         <div class="buttons">
                         <button type="submit" class="btnreservar_modal">Reservar ingresso</button>
-                        <button onclick="fecharmodal()" type="button" id="btn-fechar" class="btnfechar_modal ">X</button>
+                        <button onclick="fecharmodal()" type="submit" id="btn-fechar" class="btnfechar_modal ">X</button>
                         </div>
                     </div>            
-        </div>
+        </form>
     </main>
     <footer>
         <div class="container d-flex justify-content-center align-items-center">
