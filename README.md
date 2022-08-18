@@ -16,7 +16,6 @@
 - [Technologies](#-Technologies)
 - [Authors](#-Authors)
 
-___
 
 
 ## **📝 About the projects**
@@ -30,14 +29,14 @@ ___
 # clone repository
     $ git clone https://github.com/muryllohenriq/sound-garden-xp44.git 
 ```
-___
+
 ## **🚀 Technologies**
 - [JS](https://developer.mozilla.org/en-US/docs/Web/javascript)
 - [DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model)
 - [API](https://docs.microsoft.com/en-us/azure/api-management/)
-___
+
 ## **🤓 Authors**
 
-- [Breno Borges](https://github.com/brenobsd)
-- [Keyla Coimbra](https://github.com/keycoimbra)
-- [Muryllo Henrique](https://github.com/muryllohenriq)
+- [Breno Borges ✅](https://github.com/brenobsd)
+- [Keyla Coimbra ✅](https://github.com/keycoimbra)
+- [Muryllo Henrique ✅](https://github.com/muryllohenriq)
