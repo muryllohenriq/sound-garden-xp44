@@ -2,30 +2,28 @@
 <img src=img/sound-logo.png width="150px">   
 </h1>
 
-<h1 align="center">
-<img src=GIF">   
+<h1>
+<img src=img/banner.gif>   
 </h1>
+
+
+# Website Sound Garden Project
 
 ## **Index**
 
 - [About the projects](#-About-the-projects)
-- [Preview](#-Preview)
 - [Download](#-Download)
 - [Technologies](#-Technologies)
 - [Authors](#-Authors)
 
 ___
 
+
 ## **📝 About the projects**
 
 ###  The **sound Garden** project was created in the developer-web course (Gama-Academy school) with the aim of putting into practice the knowledge of Javascript and HTML by creating a website with dynamic content and Application Programming Interface (API).
 
-___
-## **🎶Preview**
 
-Banner
-
-___
 ## **⬇️ Download** ##
 
 ```bash 
