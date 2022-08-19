@@ -38,7 +38,7 @@
 
 
 To access the web page, please 
-[click here🎵](http://127.0.0.1:5500/) <
+[click here🎵](https://muryllohenriq.github.io/sound-garden-xp44/) <
 
 To access the project repository, follow the instructions below⬇
 ```bash 
